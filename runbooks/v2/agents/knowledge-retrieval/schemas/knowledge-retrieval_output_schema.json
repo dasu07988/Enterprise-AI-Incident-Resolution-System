@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "retrieved_documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "document_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "similarity_score": {
+            "type": "number"
+          },
+          "summary": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "document_id",
+          "title",
+          "source",
+          "similarity_score",
+          "summary"
+        ]
+      }
+    },
+    "confidence": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "retrieved_documents",
+    "confidence"
+  ]
+}

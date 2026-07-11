@@ -1,0 +1,24 @@
+[
+  {
+    "incident_type": "Application",
+    "category": "Payment Gateway",
+    "severity": "Critical",
+    "priority": "P1",
+    "expected_documents": [
+      "Payment API Recovery Runbook",
+      "HTTP 500 Troubleshooting Guide",
+      "Payment Service SOP"
+    ]
+  },
+  {
+    "incident_type": "Database",
+    "category": "Customer Database",
+    "severity": "Critical",
+    "priority": "P1",
+    "expected_documents": [
+      "Database Failover Runbook",
+      "Primary DB Recovery Guide",
+      "Database Backup SOP"
+    ]
+  }
+]
