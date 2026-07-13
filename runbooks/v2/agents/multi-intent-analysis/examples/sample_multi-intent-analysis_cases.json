@@ -1,0 +1,17 @@
+[
+  {
+    "incident": "Payment API returns HTTP 500 errors after deployment. Database latency increased to 3000ms. Redis cache unavailable.",
+    "expected_incidents": 3,
+    "expected_relationship": "Database latency and Redis outage may contribute to Payment API failures."
+  },
+  {
+    "incident": "Corporate VPN unavailable. DNS resolution failures observed across multiple offices.",
+    "expected_incidents": 2,
+    "expected_relationship": "DNS failures may contribute to VPN connectivity issues."
+  },
+  {
+    "incident": "Authentication service unavailable. Users report login failures. Identity Provider health checks failing.",
+    "expected_incidents": 3,
+    "expected_relationship": "Identity Provider failure is likely related to authentication issues."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "test_case_id": "MI-001",
+    "description": "Payment API with multiple infrastructure issues",
+    "input": {
+      "incident": "Payment API returns HTTP 500 errors after deployment. Database latency increased to 3000ms. Redis cache unavailable."
+    },
+    "expected": {
+      "incident_count": 3
+    }
+  },
+  {
+    "test_case_id": "MI-002",
+    "description": "VPN and DNS incident",
+    "input": {
+      "incident": "Corporate VPN unavailable. DNS resolution failures observed."
+    },
+    "expected": {
+      "incident_count": 2
+    }
+  },
+  {
+    "test_case_id": "MI-003",
+    "description": "Authentication service incident",
+    "input": {
+      "incident": "Authentication service unavailable. Users report login failures. Identity Provider health checks failing."
+    },
+    "expected": {
+      "incident_count": 3
+    }
+  }
+]
