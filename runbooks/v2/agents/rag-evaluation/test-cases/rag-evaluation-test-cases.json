@@ -1,0 +1,31 @@
+[
+  {
+    "test_case_id": "RAG-001",
+    "description": "Payment API evaluation",
+    "input": {
+      "incident": "Payment API returns HTTP 500 errors after deployment.",
+      "retrieved_knowledge": [
+        "Runbook APP-004",
+        "Runbook DB-002"
+      ]
+    },
+    "expected": {
+      "knowledge_complete": true,
+      "knowledge_relevant": true,
+      "quality": "Excellent"
+    }
+  },
+  {
+    "test_case_id": "RAG-002",
+    "description": "Missing knowledge",
+    "input": {
+      "incident": "Authentication failure",
+      "retrieved_knowledge": []
+    },
+    "expected": {
+      "knowledge_complete": false,
+      "knowledge_relevant": false,
+      "quality": "Poor"
+    }
+  }
+]

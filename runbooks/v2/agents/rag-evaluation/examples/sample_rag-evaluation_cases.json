@@ -1,0 +1,22 @@
+[
+  {
+    "incident": "Payment API returns HTTP 500 errors after deployment.",
+    "retrieved_knowledge": [
+      "Runbook APP-004",
+      "Runbook DB-002"
+    ],
+    "expected_quality": "Excellent"
+  },
+  {
+    "incident": "Users cannot establish VPN connections.",
+    "retrieved_knowledge": [
+      "Runbook NET-002"
+    ],
+    "expected_quality": "Good"
+  },
+  {
+    "incident": "Authentication service unavailable.",
+    "retrieved_knowledge": [],
+    "expected_quality": "Poor"
+  }
+]
