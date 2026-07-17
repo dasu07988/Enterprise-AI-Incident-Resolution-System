@@ -102,7 +102,7 @@ Instead of relying on a single AI prompt, multiple AI agents collaborate to:
 
 | Layer | Technology |
 |--------|------------|
-| 🤖 AI Model | Google Gemini 2.5 Flash |
+| 🤖 AI Model | Google Gemini 2.5 Flash Lite |
 | 🧠 AI Architecture | Multi-Agent AI |
 | 📚 Vector Database | Pinecone |
 | 🔍 Retrieval | Retrieval-Augmented Generation (RAG) |
