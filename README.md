@@ -23,8 +23,7 @@ An **AI-powered Enterprise Incident Resolution System** that automates incident 
 
 A complete demonstration of the Enterprise AI Incident Resolution System, including incident submission, Multi-Agent AI processing, Pinecone retrieval, Trello integration, and API response, is available on LinkedIn.
 
-🔗 Watch the demo:
-https://www.linkedin.com/posts/YOUR_POST_LINK
+
 
 ---
 
